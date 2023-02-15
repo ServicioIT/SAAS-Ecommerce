@@ -6,12 +6,15 @@ from django.views.generic import ListView, CreateView, DetailView, TemplateView
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 import json
-
 import stripe
-# stripe.api_key = settings.STRIPE_SECRET_KEY
-# stripe.api_version = "2022-11-15"
+
 
 # Create your views here.
+
+# def index(request):
+
+#     # Page from the theme 
+#     return render(request, 'index.html')
 
 class ProductListView(ListView):
     model = Product
