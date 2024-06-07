@@ -160,8 +160,8 @@ LOGIN_REDIRECT_URL = '/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 if DEBUG:
-    STRIPE_PUBLISHABLE_KEY = 'pk_test_A3A3YWjuPH2WiYq6EuPoC0N600losPUFYJ'
-    STRIPE_SECRET_KEY = 'sk_test_aIHTtDsLY2zTyrODX0zJ6pQ400nnSwHKpq'
+    STRIPE_PUBLISHABLE_KEY = 'pk_test_'
+    STRIPE_SECRET_KEY = 'sk_test_'
 else:
-    STRIPE_PUBLISHABLE_KEY = 'pk_live_luTlq3oBMQipFXYVdTVJv6Wu00H3fCvUmj'
-    STRIPE_SECRET_KEY = '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'
+    STRIPE_PUBLISHABLE_KEY = 'pk_live_'
+    STRIPE_SECRET_KEY = 'sk_live_'
